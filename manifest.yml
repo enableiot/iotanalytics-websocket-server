@@ -1,0 +1,12 @@
+---
+applications:
+- name: installer-websocket
+  memory: 512M
+  instances: 1
+  path: .
+  command: node server.js
+  buildpack: nodejs_buildpack
+  services:
+  - mypostgres
+  - mylogstash
+  - websocket-ups
