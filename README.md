@@ -1,5 +1,3 @@
-![IoT Analytics](https://github.intel.com/dppaas/dp-dashboard/blob/master/public-interface/dashboard/public/img/menu/dcgarg.png)
-
 # IoT Websocket Server
 
 This component is used to support actuations over websocket protocol. It is an alternative for mqtt protocol. 
@@ -85,11 +83,18 @@ More informations about websockets on website https://github.com/theturtle32/Web
 
 - Git
 
+- Cloud Foundry CLI and Trusted Analytics Platform account (https://github.com/trustedanalytics)
+
 ## Requirements to run
 
 1. Generate a pair RSA keys and put your public keys in ./security/ directory as  public.pem
 
-#### On TAP
+#### On Trusted Analytics Platform (https://github.com/trustedanalytics)
+Before installation, make sure that you are logged into Trusted Analytics Platform with command:
+```
+cf login
+```
+
 1. Create instances with specified name for each of required services from marketplace:
     * PostgreSQL 9.3 or newer with name mypostgres
     * Logstash 1.4 or newer with name mylogstash
