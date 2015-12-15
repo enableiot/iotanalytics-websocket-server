@@ -53,7 +53,6 @@ var config = {
                 prettyPrint: false,
                 timestamp: true,
                 exitOnError: false,
-                logstash: true,
                 level: 'debug'
             }
         }
