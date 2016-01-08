@@ -66,7 +66,6 @@ if (process.env.NODE_ENV && (process.env.NODE_ENV.toLowerCase().indexOf("local")
     config.ws.externalPort = config.ws.port;
     config.logger.transport.console.json = false;
     config.logger.transport.console.prettyPrint = false;
-    config.logger.transport.console.logstash = false;
     config.postgres.options.host = process.env.POSTGRES_HOST || 'localhost';
 }
 

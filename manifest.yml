@@ -8,5 +8,4 @@ applications:
   buildpack: nodejs_buildpack
   services:
   - mypostgres
-  - mylogstash
   - websocket-ups
