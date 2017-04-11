@@ -38,9 +38,9 @@ var config = {
     "ws": {
         "externalAddress": cfenvReader.getApplicationUri(),
         //Until TAP platform won't supper unsecure websocket connection, we can only use 443 port
-        "externalPort": 443,
+        "externalPort": 5000,
         "serverAddress": cfenvReader.getHost(),
-        "port": cfenvReader.getPort(),
+        "port": 5000,
         "username": websocket_credentials.username,
         "password": websocket_credentials.password
     },
