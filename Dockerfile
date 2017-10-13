@@ -1,3 +1,5 @@
-FROM node:4-onbuild
+FROM node:4.8.3
+
+WORKDIR /app
 
 EXPOSE 5000
