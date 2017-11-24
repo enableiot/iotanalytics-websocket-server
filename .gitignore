@@ -1,5 +1,5 @@
 dist/
 node_modules/
 .idea/
-security/private.pem
-security/public.pem
+keys/private.pem
+keys/public.pem

@@ -60,13 +60,10 @@ var config = {
 };
 
 if (process.env.NODE_ENV && (process.env.NODE_ENV.toLowerCase().indexOf("local") !== -1)) {
-    config.ws.serverAddress = "127.0.0.1";
-    config.ws.port = "6002";
     config.ws.externalAddress = config.ws.serverAddress;
     config.ws.externalPort = config.ws.port;
     config.logger.transport.console.json = false;
     config.logger.transport.console.prettyPrint = false;
-    config.postgres.options.host = process.env.POSTGRES_HOST || 'localhost';
 }
 
 module.exports = config;
