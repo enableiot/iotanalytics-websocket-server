@@ -87,7 +87,7 @@ More informations about websockets on website https://github.com/theturtle32/Web
 
 ## Requirements to run
 
-1. Generate a pair RSA keys and put your public keys in ./security/ directory as  public.pem
+1. Generate a pair RSA keys and put your public keys in ./keys/ directory as  public.pem
 
 #### On Trusted Analytics Platform (https://github.com/trustedanalytics)
 Before installation, make sure that you are logged into Trusted Analytics Platform with command:
